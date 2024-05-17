@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
 	const emblaNodes = document.querySelectorAll(".embla");
 	emblaNodes.forEach((emblaNode) => {
 		const viewportNode = emblaNode.querySelector(".embla__viewport");
@@ -42,4 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		emblaApi.on("destroy", removePrevNextBtnsClickHandlers);
 	});
-});
+// });
